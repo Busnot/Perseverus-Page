@@ -24,6 +24,22 @@ const Portfolio = () => {
       results: "Aumento del 30% en ventas en los primeros 3 meses.",
       icon: <FaShoppingCart className="text-4xl text-blue-500" />, // Ícono de carrito de compras
     },
+    {
+      id: 2,
+      name: "Sistema de Gestión de Inventarios",
+      description: "Creamos un sistema para gestionar inventarios en tiempo real.",
+      technologies: ["Python", "Django", "PostgreSQL", "Docker"],
+      results: "Reducción del 20% en pérdidas por inventario.",
+      icon: <FaBox className="text-4xl text-purple-500" />, // Ícono de caja
+    },
+    {
+      id: 3,
+      name: "Aplicación Móvil de Fitness",
+      description: "Desarrollamos una app móvil para seguimiento de rutinas de ejercicio.",
+      technologies: ["Flutter", "Firebase", "GraphQL"],
+      results: "Más de 10,000 descargas en el primer mes.",
+      icon: <FaDumbbell className="text-4xl text-blue-500" />, // Ícono de pesas
+    },
 
   ];
 
